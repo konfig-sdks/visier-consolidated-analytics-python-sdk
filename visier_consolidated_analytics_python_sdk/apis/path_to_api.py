@@ -1,0 +1,23 @@
+import typing_extensions
+
+from visier_consolidated_analytics_python_sdk.paths import PathValues
+from visier_consolidated_analytics_python_sdk.apis.paths.v1alpha_admin_consolidated_analytics_tenants import V1alphaAdminConsolidatedAnalyticsTenants
+from visier_consolidated_analytics_python_sdk.apis.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_excluded_sources import V1alphaAdminConsolidatedAnalyticsTenantsTenantIdExcludedSources
+from visier_consolidated_analytics_python_sdk.apis.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_source_tenants import V1alphaAdminConsolidatedAnalyticsTenantsTenantIdSourceTenants
+
+PathToApi = typing_extensions.TypedDict(
+    'PathToApi',
+    {
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS: V1alphaAdminConsolidatedAnalyticsTenants,
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS_TENANT_ID_EXCLUDEDSOURCES: V1alphaAdminConsolidatedAnalyticsTenantsTenantIdExcludedSources,
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS_TENANT_ID_SOURCETENANTS: V1alphaAdminConsolidatedAnalyticsTenantsTenantIdSourceTenants,
+    }
+)
+
+path_to_api = PathToApi(
+    {
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS: V1alphaAdminConsolidatedAnalyticsTenants,
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS_TENANT_ID_EXCLUDEDSOURCES: V1alphaAdminConsolidatedAnalyticsTenantsTenantIdExcludedSources,
+        PathValues.V1ALPHA_ADMIN_CONSOLIDATEDANALYTICS_TENANTS_TENANT_ID_SOURCETENANTS: V1alphaAdminConsolidatedAnalyticsTenantsTenantIdSourceTenants,
+    }
+)

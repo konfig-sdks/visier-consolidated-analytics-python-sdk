@@ -1,0 +1,13 @@
+from visier_consolidated_analytics_python_sdk.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_source_tenants.get import ApiForget
+from visier_consolidated_analytics_python_sdk.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_source_tenants.put import ApiForput
+from visier_consolidated_analytics_python_sdk.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_source_tenants.delete import ApiFordelete
+from visier_consolidated_analytics_python_sdk.paths.v1alpha_admin_consolidated_analytics_tenants_tenant_id_source_tenants.patch import ApiForpatch
+
+
+class V1alphaAdminConsolidatedAnalyticsTenantsTenantIdSourceTenants(
+    ApiForget,
+    ApiForput,
+    ApiFordelete,
+    ApiForpatch,
+):
+    pass
